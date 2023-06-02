@@ -1,0 +1,106 @@
+@import '../../../../../_assets/css/stockreport/variables';
+@import '../../../../../_assets/css/stockreport/fonts';
+
+
+.header {
+    padding: 25px 52px;
+    background-color: #202020;
+
+    .logo {
+        width: 70px;
+        margin-right: 10px;
+    }
+
+    .isinNo {
+        h3 {
+            opacity: .35;
+            // font-size: 1.125rem;
+            font-size: 18px;
+            line-height: 1.56;
+            letter-spacing: .09px;
+            font-weight: normal;
+            text-align: right;
+            color: #fff;
+        }
+    }
+}
+.rightSide {
+    display: flex;
+    align-items: center;
+}
+.mainHeading {
+    @extend .Lato-SemiBold;
+    // font-size: 2.37rem;
+    font-size: 38px;
+    line-height: 1.37;
+    letter-spacing: normal;
+    color: #fff;
+    text-transform: uppercase;
+}
+.subHeading {
+    // font-size: 1.56rem;
+    @extend .Lato-Regular;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.12;
+    letter-spacing: 0.35px;
+    color: #fff;
+}
+.subSubHeading {
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 0.08px;
+    color: #868686;
+}
+
+.divider {
+    width: 100%;
+    margin: 30px 0;
+    opacity: 0.15;
+    border: solid 1px #fff;
+    height: 1px;
+}
+.textHeading {
+    font-size: 1.375rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: 0.11px;
+    text-align: right;
+    color: #fff;
+}
+.textSubHeading {
+    font-size: 1.063rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 0.08px;
+    text-align: right;
+    color: #868686;
+}
+.text {
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.97;
+    letter-spacing: 0.16px;
+    color: #fc5a5a;
+}
+.rightHigh {
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: 0.11px;
+    text-align: right;
+    color: #fff;
+}

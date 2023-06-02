@@ -1,0 +1,72 @@
+@import '../../../../../_assets/css/stockreport/variables';
+@import '../../../../../_assets/css/stockreport/fonts';
+
+.card {
+    // width: 240px;
+    // min-height: 128px;
+    // margin: 0 20px 20px 0;
+    // padding: 20px;
+    // border-radius: 3px;
+    // border: solid 1px #9797974d;
+    background: #FFFFFF;
+    border: 1px solid rgba(182, 188, 200, 0.28);
+    border-radius: 4px;
+    padding: 8px;
+}
+.value {
+    @extend .Lato-Bold;
+    font-size: 24px;
+    font-weight: bold;
+    // line-height: 0.75;
+    letter-spacing: 1px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+        margin-right: 10px;
+    }
+}
+.mainText {
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: 0.14px;
+    color: #202020;
+}
+.title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.28px;
+    color: #202020;  
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.text {
+    font-size: 0.938rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: 0.07px;
+    color: #202020;   
+}
+// .info {
+//     border: solid 1px rgba(1, 106, 255, 0.5);
+//     background-color: #f3f8ff;
+// }
+// .positive {
+//     border: solid 1px #00a25b;
+//     background-color: #effbf6;
+// }
+// .neutral {
+//     border: solid 1px rgba(254, 197, 66, 0.5);
+//     background-color: #fffaef;
+// }
+// .negative {
+//     border: solid 1px rgba(252, 90, 90, 0.5);
+//     background-color: #fef2f2;
+// }

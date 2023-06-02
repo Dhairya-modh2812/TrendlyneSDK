@@ -1,0 +1,55 @@
+.superstar-portfolio-scope {
+  @import "~bootstrap/scss/bootstrap.scss";
+
+  @import "../common/kayal-theme.scss";
+
+  @import "./custom.scss";
+
+  // default styles in this scope
+  
+  font-size: 16px;
+  font-weight: 400;
+  font-family: $font-family;
+  background-color: $body_background_color;
+  line-height: normal;
+  letter-spacing: normal; 
+  color: $text_color;
+
+  &.dark {
+    @import "./kayal_dark.scss";
+    @import "./custom.scss";
+    background-color: $body_background_color;
+    color: $text_color;
+  }
+
+  &.light {
+    @import "../common/kayal-theme.scss";
+    @import "./custom.scss";
+    background-color: $body_background_color;
+    color: $text_color;
+  }
+
+  &.neolight {
+    @import "./kayal_neolight.scss";
+    @import "./custom.scss";
+    background-color: $body_background_color;
+    color: $text_color;
+  }
+
+  &.neodark {
+    @import "./kayal_neodark.scss";
+    @import "./custom.scss";
+    background-color: $body_background_color;
+    color: $text_color;
+  }
+}
+
+body {
+    margin: 0px;
+}
+
+@media screen and (max-width:576px) {
+    .superstar-portfolio-scope[data-view-type="webview"] {
+    	padding:0rem 0.9rem;
+    }
+}

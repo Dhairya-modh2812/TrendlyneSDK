@@ -1,0 +1,21 @@
+ YEAR = 2
+    HALF_YR = 4
+    QTR_YR = 6
+    MON = 8
+    WK = 16
+    DA = 24
+    HR = 32
+    HLF_HR = 40
+    QTR_HR = 48
+
+    FREQUENCY_CHOICES = (
+        (YEAR,'yearly'),
+        (HALF_YR,'half yearly'),
+        (QTR_YR,'quarterly'),
+        (MON,'monthly'),
+        (WK,'weekly'),
+        (DA,'daily'),
+        (HR,'hourly'),
+        (HLF_HR,'30 min'),
+        (QTR_HR,'15 min'),
+    )

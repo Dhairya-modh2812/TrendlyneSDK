@@ -1,0 +1,262 @@
+// @import '../../styles/variables';
+// @import '../../styles/fonts';
+@import '../../../../_assets/css/stockreport/variables';
+@import '../../../../_assets/css/stockreport/fonts';
+
+.content {
+    padding: 40px 52px;
+}
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.sectionHeading {
+    font-size: 1.875rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: 0.15px;
+    color: #202020;
+    
+    text-transform: uppercase;
+}
+.para {
+    font-size: 1.063rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: 0.24px;
+    color: #202020;
+    opacity: 0.5;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+    .date {
+        font-weight: normal;
+        color: #000;
+        opacity: 1;
+    }
+}
+
+.date {
+    font-size: 1.063rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 0.08px;
+    color: #868686;
+}
+.chartBox {
+    border-radius: 3px;
+    border: solid 1px #97979780;
+    padding: 20px;
+    padding-bottom: 35px;
+}
+.chartHeading {
+    font-size: 1.438rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.09;
+    letter-spacing: 0.32px;
+    color: #202020;
+    margin-bottom: 25px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .text, .value, .per {
+        
+    }
+    .itemNumbers {
+        width: 40%;
+    }
+    .text, .value {
+        font-size: 1rem;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.6;
+        letter-spacing: 0.28px;
+        color: #202020;
+    }
+    .text {
+        font-weight: 600;
+        min-width: 50%;
+    }
+    .value {
+        font-weight: normal;
+        min-width: 50%;
+    }
+    .per {
+        font-size: 1.063rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: 0.24px;
+        color: #00a25b;
+        min-width: 50%;
+    }
+}
+
+.indicatorBox {
+    position: relative;
+    padding: 0 15px;
+    max-width: calc(100% / 4);
+    display: inline-block;
+    max-height: 45px;
+    height: 100%;
+    .text {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.22;
+        letter-spacing: 0.09px;
+        color: #202020;
+    }
+
+    &.danger::after , &.negative::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        border-radius: 2.5px;
+        background-color: $danger;
+        top: 0;
+        left: 0;
+    }
+    &.warning::after, &.nuetral::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        border-radius: 2.5px;
+        background-color: $warning;
+        top: 0;
+        left: 0;
+    }
+    &.success::after, &.positive::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        border-radius: 2.5px;
+        background-color: $success;
+        top: 0;
+        left: 0;
+    }
+    &.info::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        border-radius: 2.5px;
+        background-color: #fc5a5a;
+        top: 0;
+        left: 0;
+    }
+}
+
+.volumeChart {
+    .value {
+        font-size: 26px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.19;
+        letter-spacing: 0.13px;
+        color: #202020;
+    }
+    small {
+        font-size: 17px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 0.08px;
+        color: #868686;
+    }
+}
+.chartImageBox {
+    position: relative;
+    width: 490px;
+    left: 90px;
+
+    &::after {
+        content: attr(data-content);
+        position: absolute;
+        bottom: -20px;
+        left: calc(var(--data-left) + 3%);
+
+        font-size: 11px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.88;
+        letter-spacing: 0.08px;
+        color: #202020;
+    }
+}
+.chartImg {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    
+    background-image: url('../../../../_assets/images/stockreport/combined-shape.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &::before , &::after {
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.17;
+        letter-spacing: 0.06px;
+        color: #202020;
+    }
+    &::before {
+        content: "Buy";
+        position: absolute;
+        left: -8%;
+        top:30%
+    }
+
+    &::after {
+        content: "Sell";
+        position: absolute;
+        right: -8%;
+        top:30%
+    }
+}
+.chartIndicator {
+    position: absolute;
+    bottom: -20px;
+}
+.textBottom {
+    position: relative;
+    background: #F6F7FD;
+    border-radius: 4px;
+    padding: 12px;
+
+    @extend .Lato-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.05px;
+
+    color: #000000;
+
+
+}

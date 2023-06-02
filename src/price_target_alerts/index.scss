@@ -1,0 +1,12 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "../_assets/css/price_target_alerts/theme_1";
+
+.theme-1 {
+  @import "../_assets/css/price_target_alerts/theme_1";
+  @import "../_assets/css/price_target_alerts/custom";
+}
+
+.theme-2 {
+  @import "../_assets/css/price_target_alerts/theme_2";
+  @import "../_assets/css/price_target_alerts/custom";
+}

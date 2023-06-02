@@ -1,0 +1,44 @@
+.progress {
+    --bs-progress-border-radius: 1.25rem;
+}
+.stockreport {
+    .badge {
+        --bs-badge-border-radius : 0.25rem;
+        --bs-badge-padding-x: 0.75em;
+        --bs-badge-padding-y: 0.5em;
+        padding: 8px 12px;
+        font-weight: 500;
+    
+        &-default {
+            border: none;
+            background-color: #f6f7fd;
+            color: #202020;
+            text-align: left;
+        }
+    }
+    .badge-outlined {
+        background: transparent;
+        border: 1px solid rgba(182, 188, 200, 0.28);
+        color: #202020;
+    
+        &-default {
+            border: none;
+            background: #f6f7fd;
+            color: #202020;
+        }
+        &-success, &-positive {
+            border: 1px solid $badge-success;
+            color: $badge-success;
+        }
+    
+        &-danger, &-negative {
+            border: 1px solid $badge-danger;
+            color: $badge-danger;
+        }
+    
+        &-warning, &-neutral {
+            border: 1px solid $badge-warning;
+            color: $badge-warning;
+        }
+    }
+}

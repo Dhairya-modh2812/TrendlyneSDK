@@ -1,0 +1,28 @@
+@import '../../../../_assets/css/stockreport/variables';
+
+
+.footer {
+    padding: 25px 52px;
+    background-color: #202020;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    clear: both;
+    position: relative;
+}
+.textSubHeading {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.063rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 0.08px;
+    text-align: right;
+    color: #868686;
+    margin: 0;
+    span {
+        color: #fff;
+    }
+}

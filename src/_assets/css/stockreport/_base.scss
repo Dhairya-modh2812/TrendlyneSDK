@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1rem;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+}
+.container-fluid {
+    padding: 0!important;
+    max-width: 1440px;
+}
+
+.loading-splash {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+// margin classes
+.ml-n-25 {
+    margin-left: -25px!important;
+}
+.opacity-100 {
+    opacity: 1!important;
+}
+.opacity-75 {
+    opacity: .75!important;
+}
+.opacity-50 {
+    opacity: .5!important;
+}
+.opacity-25 {
+    opacity: .25!important;
+}

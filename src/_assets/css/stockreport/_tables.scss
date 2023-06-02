@@ -1,0 +1,44 @@
+.table td {
+    padding: 0;
+}
+
+.table {
+
+    // td , th {
+    //     border-top: 1px solid #e6e8eb;
+    // }
+    thead th {
+        @extend .Lato-SemiBold;
+        font-size: 11px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.45;
+        letter-spacing: 1px;
+        color: #202020;
+        border-bottom-width: 1px;
+        border-top: none;
+        text-transform: uppercase;
+    }
+
+    tbody {
+        tr td {
+            @extend .Lato-Regular;
+            padding: .75rem;
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.38;
+            letter-spacing: 0.09px;
+            text-align: left;
+            color: #202020;
+        }
+    }
+    .sparkline-chart {
+        .highcharts-container  {
+            margin: auto;
+        }
+    }
+}

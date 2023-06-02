@@ -1,0 +1,27 @@
+$color-white-100 : #fff;
+
+$danger : #fc5a5a;
+$warning: #ff9633;
+$success :#00a25b;
+
+:root {
+    --danger-RGB : 252, 90, 90;
+    --warning-RGB : 255, 150, 51;
+    --success-RGB : 0, 162, 91;
+    --tb-bg-success: 128, 208, 173;
+    --tb-bg-warning: 255, 234, 217;
+    --tb-bg-danger: 254, 197, 197;
+    --bs-font-sans-serif: 'Lato', sans-serif;
+}
+// legend colors
+$bright-blue: #016aff;
+$orange: #fc975a;
+$bean-red: #fc5a5a;
+$purple:#b62fff; 
+$aqua-blue: #16D8EC;
+$sunglow: #fec542;
+
+// badge outlined
+$badge-success: #00A25B;
+$badge-danger : #FC5A5A;
+$badge-warning: #FF9633;

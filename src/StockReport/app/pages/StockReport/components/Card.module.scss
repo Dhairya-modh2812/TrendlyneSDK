@@ -1,0 +1,14 @@
+@import '../../../../../_assets/css/stockreport/variables';
+@import '../../../../../_assets/css/stockreport/fonts';
+.cardLabel {
+    display: inline-flex;
+    padding: 5px 24px;
+    position: relative;
+    max-width: fit-content;
+    left: -16px;
+    background: #f5f6f8;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+    @extend .Lato-SemiBold;
+}

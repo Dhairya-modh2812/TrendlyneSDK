@@ -1,0 +1,68 @@
+.price-target-alerts {
+    $background_color: #f5f6f8;
+    $body_background_color:#fff;
+    $primary_color: #016aff;
+    $primary_light_color: #3a8bff;
+    $text_color: #083159;
+    $button_background_color: #016aff;
+    $font-family: 'Nunito Sans', sans-serif;
+    $responsive_width: 1024px;
+    $card-bg-color: transparent;
+    $card-bdr-color: #f3f4fa;
+
+
+    @import "~bootstrap/scss/bootstrap.scss";
+  
+    @import "../common/huffman-theme.scss";
+    
+    @import "./custom.scss";
+    
+    font-size: 16px;
+    font-weight: 400;
+    font-family: $font-family;
+    background-color: $body_background_color;
+    line-height: normal;
+    letter-spacing: normal; 
+    color: $text_color;
+    
+    .triggered-list-page {
+        min-height: calc(100vh - 70px - 3rem);
+    }
+    .percentage-options {
+        .btn {
+            min-width: 20%;
+        }
+    }
+    /* Swipe */
+    .swipe-container {
+        .swipe-left {
+            background-color: $bg_positive;
+            color: $white_color;
+            margin-bottom: 1rem;
+            margin-top: 0rem;
+        }
+        .swipe-right {
+            background-color: $bg_negative;
+            color:$white_color;
+            margin-bottom: 1rem;
+            margin-top: 0rem;
+        }
+    }
+
+	&.dark {
+        @import "../common/huffman-dark-theme.scss";
+        @import "./custom.scss";
+        background-color: $body_background_color;
+        color: $text_color;
+	}
+
+        @media all and (max-width:600px) {
+
+            .swipe-container {
+                .swipe-action {
+                    display: flex !important;
+                }
+            }
+        }
+    
+}

@@ -1,0 +1,52 @@
+@import '../../../../../_assets/css/stockreport/variables';
+@import '../../../../../_assets/css/stockreport/fonts';
+
+.dvmContent {
+    background: #E4F0FF;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 0px;
+    
+    .title {
+        @extend .Lato-SemiBold;
+        margin-bottom: 5px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        color: #202020;
+        display: flex;
+        align-items: center;
+    }
+    
+    p {
+        @extend .Lato-Regular;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        /* or 156% */
+
+        letter-spacing: 0.08px;
+    }
+}
+.title {
+    height: 50px;
+}
+.dvmSymbols {
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    .box{ 
+        width: 14px;
+        height: 14px;
+        border-radius: 2px;
+    }
+
+    .alpha {
+        line-height: 1.5;
+    }
+}

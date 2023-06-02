@@ -1,0 +1,14 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "../_assets/css/IPO/theme_1";
+
+.theme-1 {
+  @import "../_assets/css/IPO/theme_1";
+  @import "../_assets/css/IPO/custom";
+  @import "../_assets/css/common/ichbiah-theme.scss";
+}
+
+.theme-2 {
+  @import "../_assets/css/IPO/theme_2";
+  @import "../_assets/css/IPO/custom";
+  @import "../_assets/css/common/ichbiah-theme.scss";
+}

@@ -1,0 +1,53 @@
+.pt-sdk-container {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #e4f0ff;
+}
+
+.pt-sdk-container .ptc-sdk-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 1rem;
+    gap: 1rem;
+    margin-bottom: 0;
+}
+
+.pt-sdk-container .ptc-header-content {
+    flex-basis: 20rem;
+    flex-grow: 1;
+    width: 100%;
+}
+.pt-sdk-container .ptc-title-faq {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pt-sdk-container .ptc-head-description {
+    margin-top: 15px;
+}
+
+.pt-sdk-container .ptc-head-description .ptc-description-content {
+    font-size: 0.87rem;
+    color: #7f8899;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.4px;
+}
+
+.pt-sdk-container .ptc-banner-right {
+    flex-basis: 24.5rem;
+    margin-left: auto;
+}
+
+.pt-sdk-container .ptc-faq-link{
+    color: #0d6efd !important;
+}
+
+.pt-sdk-container .ptc-faq-link:hover{
+    color: #0d6efd !important;
+    text-decoration: underline !important;
+}

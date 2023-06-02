@@ -1,0 +1,131 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+p, h1, h2, h3, h4, h5, h6{
+  font-family: 'Lato', sans-serif;
+}
+.portfolio_share{
+  background-color: #f5f6f8;
+  padding: 30px;
+  width: 490px;
+  margin: 0 auto;
+}
+.portfolio_share table{
+  width:100%;
+  border-radius: 5px;
+}
+.portfolio_share .header{
+  padding-bottom:15px;
+}
+.growth td {
+  border: 1px solid #e9ecf366;
+  border-radius: 5px;
+}
+.growth table td{
+  margin: 6px;
+  text-align: left;
+  width: 31.333%;
+  border-radius: 5px;
+  display: inline-block;  
+}
+table.sub_table{
+  padding: 5px 5px 13px 5px;
+  display: block;
+}
+.section_content td {
+  padding: 8px 35px 8px 11px;
+}
+.growth table td p, .growth table td h5{
+  margin:0px
+}
+.growth table td h5{
+  margin:13px 0px 0px;
+  font-weight: 500;
+}
+.growth table td p{
+  font-size:10px;
+  color: #999;
+  padding-top: 4px;
+}
+.portfolio_share .header img{
+  width: 30px;
+}
+.portfolio_share .header h1{
+  font-size:24px;
+  margin:0px;
+  text-align: center;
+  color: #4d5ef4;
+  font-weight: 600;
+}
+.portfolio_share .header p{
+  margin:0px;
+  font-size:12px;
+  text-align:right;
+}
+.img_square{
+  background-color:#016aff1a;
+  width:24px;
+  height:24px;
+}
+.section_content table{
+    background-color:#fff;
+    padding: 8px 35px 8px 11px;
+    color:#4d5ef4;
+    font-size:12px;
+    line-height: 1.33;
+  letter-spacing: 0.06px;
+  text-align:left;
+  border-radius: 5px;
+  margin:15px 0px;
+}
+text.highcharts-title, text.highcharts-credits{
+  display:none !important;
+}
+.portfolio_share .header td:first-child {
+  text-align: left;
+}
+.growth table td:first-child {
+  margin-left: 0px;
+}
+.growth table td:last-child {
+  margin-right: 0px;
+}
+.sub_table{
+  background-color:#fff;
+}
+text {
+  fill: #000000 !important;
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 400 !important;
+}
+tspan.highcharts-text-outline {
+  stroke-width: 0 !important;
+}
+.text_img {
+  width: 17px;
+  height: 17px;
+  margin: 0px 3px;
+}
+ .section_content table td {
+  display: flex;
+  align-items: center;
+}
+// rect.highcharts-point{
+//   stroke-width: 5px;
+//   stroke: #f5f6f8;
+// }
+// rect.highcharts-background {
+//   fill: #f5f6f8 !important;
+// }
+rect.highcharts-background {
+  fill: transparent !important;
+}
+rect.highcharts-point{
+  stroke-width: 5px;
+  stroke: transparent;
+ }
+ rect.highcharts-point{
+   stroke-width: 5px;
+    stroke: #f5f6f8;
+}

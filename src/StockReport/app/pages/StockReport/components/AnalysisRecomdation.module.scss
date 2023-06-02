@@ -1,0 +1,39 @@
+// @import '../../../styles/fonts';
+@import '../../../../../_assets/css/stockreport/variables';
+@import '../../../../../_assets/css/stockreport/fonts';
+
+.textBottom {
+    position: relative;
+    background: #F6F7FD;
+    border-radius: 4px;
+    padding: 12px;
+
+    @extend .Lato-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.05px;
+
+    color: #000000;
+
+
+}
+.insights {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.totalAnalysis {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.62px;
+    text-align: left;
+    color: #666;
+}

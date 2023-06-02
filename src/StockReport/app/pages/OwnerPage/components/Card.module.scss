@@ -1,0 +1,44 @@
+@import '../../../../../_assets/css/stockreport/variables';
+
+.card {
+    width: 100%;
+    min-height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    display: inline-flex;
+    gap: 10px;
+    border-radius: 3px;
+    border: solid 1px #9797974d;
+    background-color: var(--color-white-100);
+
+    .text {
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: 0.08px;
+        color: var(--color-black-100);
+    }
+
+    .circle {
+        width: 46px;
+        height: 46px;
+        padding: 15px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .danger {
+        background-color: rgba(255, 204, 204, 0.28);
+    }
+    .warning {
+        background-color: rgba(254, 197, 66, 0.08);
+    }
+    .success {
+        background-color: rgba(0, 162, 91, 0.15);
+    }
+}

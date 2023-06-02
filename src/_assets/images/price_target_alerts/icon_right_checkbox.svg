@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4@1.5x</title>
+    <defs>
+        <linearGradient x1="202.553054%" y1="34.0767604%" x2="-46.6732917%" y2="60.6526382%" id="linearGradient-1">
+            <stop stop-color="#3086FF" offset="0%"></stop>
+            <stop stop-color="#0061EA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Pricing-Alert" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4">
+            <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="32" height="32" rx="4.44444444"></rect>
+            <polyline id="Path-2" stroke="#FFFFFF" stroke-width="1.47958324" stroke-linecap="round" stroke-linejoin="round" points="11 15.046421 13.4455205 19 21 13"></polyline>
+        </g>
+    </g>
+</svg>

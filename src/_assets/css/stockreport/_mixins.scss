@@ -1,0 +1,31 @@
+$sm: 600;
+
+@mixin extraLarge {
+    @media screen and (min-width: $xl) {
+        @content;
+    }
+}
+
+@mixin large {
+    @media screen and (max-width: $xl) {
+        @content;
+    }
+}
+
+@mixin medium {
+    @media screen and (max-width: $lg){
+        @content;
+    }
+}
+
+@mixin ipad {
+    @media screen and (max-width: $md){
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: $sm) {
+        @content;
+    }
+}

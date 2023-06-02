@@ -1,0 +1,22 @@
+{
+    "recently-listed": {
+        "title": "IPOs - Recently Listed",
+        "description": "The best performing and worst performing IPOs that listed recently. This table also looks at the subscription rate, listing gains, and issue size. "
+    },
+    "most-successful": {
+        "title": "Top IPOs - Recently Listed",
+        "description": "Top IPOs that listed recently, with the highest current gains. These track the best performing IPOs this year as well as previous years.This also looks at the subscription rate, listing gains, and issue size. "
+    },
+    "least-successful": {
+        "title": "Weakest IPOs - Recently Listed",
+        "description": "IPOs that listed recently, with the lowest gains. This tracks the worst performing IPOs this year as well as previous years.This table also looks at the subscription rate, listing gains, and issue size. "
+    },
+    "year": {
+        "title": "Best IPOs and Worst IPOs - __year__",
+        "description": "The best performing and worst performing IPOs in __year__. This table also looks at the subscription rate, current gains, listing gains, and issue size. "
+    },
+    "upcoming-ipo": {
+        "title": "Upcoming IPOs",
+        "description": "IPO calendar for upcoming IPOs with DRHP filing date, bid date, issue size, price range and pre-IPO placement details."
+    }
+}

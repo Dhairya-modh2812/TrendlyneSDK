@@ -1,0 +1,25 @@
+.superstar-portfolio-scope {
+  @import "~bootstrap/scss/bootstrap.scss";
+
+  @import "../common/huffman-theme.scss";
+
+  @import "./custom.scss";
+
+  // default styles in this scope
+  
+  font-size: 16px;
+  font-weight: 400;
+  font-family: $font-family;
+  background-color: $body_background_color;
+  line-height: normal;
+  letter-spacing: normal; 
+  color: $text_color;
+
+  &.dark {
+    @import "./huffman_dark.scss";
+    @import "./custom.scss";
+    background-color: $body_background_color;
+    color: $text_color;
+  }
+
+}

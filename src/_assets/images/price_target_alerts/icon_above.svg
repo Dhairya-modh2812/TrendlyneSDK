@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="7px" viewBox="0 0 9 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Triangle-lighttheme-green@1.5x</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, -5.000000)" fill="#00A25B">
+            <path d="M5.34117848,6.30849985 L8.00951298,10.4592424 C8.30816515,10.9238125 8.17366214,11.5425263 7.70909209,11.8411785 C7.54779476,11.9448696 7.36008612,12 7.1683345,12 L1.8316655,12 C1.27938075,12 0.831665498,11.5522847 0.831665498,11 C0.831665498,10.8082484 0.886795878,10.6205397 0.990487023,10.4592424 L3.65882152,6.30849985 C3.9574737,5.84392981 4.57618755,5.7094268 5.04075759,6.00807897 C5.16126024,6.08554496 5.26371249,6.1879972 5.34117848,6.30849985 Z" id="Triangle-lighttheme-green"></path>
+        </g>
+    </g>
+</svg>

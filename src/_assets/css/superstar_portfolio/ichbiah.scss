@@ -1,0 +1,52 @@
+.superstar-portfolio-scope {
+  @import "~bootstrap/scss/bootstrap.scss";
+
+  @import "../common/ichbiah-theme.scss";
+
+  @import "./custom.scss";
+
+  // default css styles in this scope
+
+  font-size: 16px;
+  font-weight: 400;
+  font-family: $font-family;
+  background-color: $body_background_color;
+  line-height: normal;
+  letter-spacing: normal; 
+  color: $text_color;
+
+  .custom_entry_table.bulk {
+    tr {
+      td:nth-child(2) {
+        .heading_link {
+          font-weight: normal;
+        }
+      }
+    }
+  }
+
+  .portfolio_header {
+    padding: 10px;
+  }
+
+  .superstar_tab {
+    padding-top: 0px;
+  }
+
+  .overview_content h5.cr {
+    font-size: 40px;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .investors_header {
+    h3 {
+      font-size: 1.5rem;
+    }
+    .block_content p {
+      font-size: 1rem;
+    }
+  }
+}

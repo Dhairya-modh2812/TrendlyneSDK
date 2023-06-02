@@ -1,0 +1,22 @@
+.page_footer .v_1 img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  .page_footer .v_2 img {
+    width: 79px;
+    height: 28px;
+    object-fit: contain;
+  }
+  .page_footer .v_2 {
+    display: flex;
+    align-items: center;
+  }
+  .page_footer .v_2 p {
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #8e8e8e;
+  }
+  .page_footer {
+    padding: 24px 0px;
+  }

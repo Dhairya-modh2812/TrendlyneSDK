@@ -1,0 +1,368 @@
+// @import '../../styles/variables';
+// @import '../../styles/fonts';
+@import '../../../../_assets/css/stockreport/variables';
+@import '../../../../_assets/css/stockreport/fonts';
+.chartBoxList {
+    border-radius: 3px;
+    background-color: rgba(237, 237, 237, 0.3);
+    padding: 20px 25px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .head {
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.72;
+        letter-spacing: 0.27px;
+        color: #202020;
+        
+    }
+    .circleNumber {
+        // width: 51px;
+        // height: 51px;
+        // border: solid 1px rgba(207, 212, 220, 0.5);
+        // background-color: #fff;
+        // border-radius: 50%;
+        font-size: 28px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.79;
+        letter-spacing: 1.34px;
+        text-align: right;
+        color: #202020;
+        float: right;
+    }
+    .date {
+        font-size: 13px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.69;
+        letter-spacing: 0.06px;
+        color: #202020;
+    }
+    .text {
+        
+        font-size: 15px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.47;
+        letter-spacing: 0.07px;
+    }
+}
+
+.heading {
+    @extend .Lato-Bold;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: 0.15px;
+    color: #202020;
+    text-transform: uppercase;
+    // margin-bottom: 30px;
+
+    .subHeading {
+        @extend .Lato-Regular;
+        transform: rotate(-360deg);
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.47;
+        letter-spacing: 0.07px;
+        color: #202020;
+        text-transform: none;
+    }
+}
+.cardList {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap ;
+    // justify-content: center;
+    padding: 30px 0;
+}
+
+.legendList {
+    display: inline-flex;
+    column-gap: 20px;
+    // margin-bottom: 35px;
+    flex-wrap: wrap;
+}
+.legend {
+    display: flex;
+    align-items: center;
+    .circle {
+        width: 9px;
+        height: 9px;
+        margin: 1px 12px 1px 0;
+        border-radius: 50%;
+    }
+    .text {
+        font-size: 13px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.69;
+        letter-spacing: 0.06px;
+        color: #202020;
+        text-transform: uppercase;
+    }
+    .blue {
+        background-color: $bright-blue;
+    }
+    .aquaBlue {
+        background-color: $aqua-blue;
+    }
+    .orange {
+        background-color: $orange;
+    }
+    .beanRed {
+        background-color: $bean-red;
+    }
+    .purple {
+        background-color: $purple;
+    }
+    .sunGlow {
+        background-color: $sunglow;
+    }
+}
+.indicatorBox {
+    position: relative;
+    padding: 0 15px;
+    display: inline-block;
+    .text {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.22;
+        letter-spacing: 0.09px;
+        color: #202020;
+    }
+
+    &.danger::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        border-radius: 2.5px;
+        background-color: $danger;
+        top: 0;
+        left: 0;
+    }
+    &.warning::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        border-radius: 2.5px;
+        background-color: $warning;
+        top: 0;
+        left: 0;
+    }
+    &.success::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        border-radius: 2.5px;
+        background-color: $success;
+        top: 0;
+        left: 0;
+    }
+    &.info::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        border-radius: 2.5px;
+        background-color: #fc5a5a;
+        top: 0;
+        left: 0;
+    }
+}
+.expensiveText {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    h6 {
+        @extend .Lato-SemiBold;
+        font-size: 22px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.41;
+        letter-spacing: 0.11px;
+        text-align: right;
+        color: #202020;
+    }
+    p {
+        @extend .Lato-Bold;
+        font-size: 17px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 0.08px;
+        text-align: right;
+        color: #868686;
+    }
+}
+.legend {
+    display: flex;
+    align-items: center;
+    .circle {
+        width: 9px;
+        height: 9px;
+        margin: 1px 12px 1px 0;
+        border-radius: 50%;
+    }
+    .text {
+        font-size: 13px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.69;
+        letter-spacing: 0.06px;
+        color: #202020;
+        text-transform: uppercase;
+    }
+    .blue {
+        background-color: $bright-blue;
+    }
+    .aquaBlue {
+        background-color: $aqua-blue;
+    }
+    .orange {
+        background-color: $orange;
+    }
+    .beanRed {
+        background-color: $bean-red;
+    }
+    .purple {
+        background-color: $purple;
+    }
+    .sunGlow {
+        background-color: $sunglow;
+    }
+}
+.chartBox {
+    border-radius: 3px;
+    border: solid 1px #9797974d;
+    // background-color: #ededed4d;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.chartBg {
+    border-radius: 3px;
+    // border: solid 1px #9797974d;
+    background-color: #ededed4d;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.indicatorBox {
+    position: relative;
+    padding: 0 15px;
+    display: inline-block;
+    .text {
+        font-size: 23px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.09;
+        letter-spacing: 0.32px;
+        color: #202020;
+        margin-bottom: 5px;
+    }
+    .subText {
+        font-size: 17px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: 0.08px;
+        color: #868686;
+    }
+    &.danger::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        border-radius: 2.5px;
+        background-color: $danger;
+        top: 0;
+        left: 0;
+    }
+    &.warning::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        border-radius: 2.5px;
+        background-color: $warning;
+        top: 0;
+        left: 0;
+    }
+    &.success::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        border-radius: 2.5px;
+        background-color: $success;
+        top: 0;
+        left: 0;
+    }
+    &.info::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        border-radius: 2.5px;
+        background-color: #fc5a5a;
+        top: 0;
+        left: 0;
+    }
+}
+.qtrDuration {
+    font-size: 13px;
+    line-height: 1.69;
+    letter-spacing: 0.06px;
+    color: #202020;
+}
+.qtrValue {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #202020;
+}
+.qtrPer {
+    font-size: 15px;
+    line-height: 1.47;
+    letter-spacing: normal;
+}
+.line {
+    height: 1px;
+    margin: 13.5px 0 9.5px;
+    opacity: 0.44;
+    border: solid 1px #cfd4dc;
+}
+.qtrText {
+    font-size: 15px;
+    line-height: 1.47;
+    letter-spacing: normal;
+    color: #202020;
+}

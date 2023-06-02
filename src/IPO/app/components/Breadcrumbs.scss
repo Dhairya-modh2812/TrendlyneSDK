@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.breadcrumb {
+  margin: 0 !important;
+  padding: 30px 0px 0px !important;
+}
+.breadcrumb li, .breadcrumb li.active, .breadcrumb li a {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #9ea6b7 !important;
+  padding: 0;
+  text-transform: uppercase;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+  padding-right: 12px !important;
+  padding-left: 12px !important;
+  color: #9ea6b7 !important;
+}
+a {
+  text-decoration: none !important;
+}
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  .breadcrumb li, .breadcrumb li.active, .breadcrumb li a{
+    font-size: 12px;
+  }
+  .breadcrumb-item + .breadcrumb-item::before{
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+  }
+}

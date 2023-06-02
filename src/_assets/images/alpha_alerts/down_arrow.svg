@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="6px" viewBox="0 0 11 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Active-Alert-Section" transform="translate(-332.000000, -33.000000)" stroke="#016AFF" stroke-width="0.662878788">
+            <g id="streamline-icon-arrow-right-1@140x140" transform="translate(337.500000, 35.923557) rotate(-270.000000) translate(-337.500000, -35.923557) translate(335.082756, 30.951966)">
+                <path d="M0,-1.90586818e-13 L4.73737374,4.73737374 C4.79954979,4.7994613 4.83448738,4.88372324 4.83448738,4.97159091 C4.83448738,5.05945858 4.79954979,5.14372052 4.73737374,5.20580808 L0,9.94318182" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

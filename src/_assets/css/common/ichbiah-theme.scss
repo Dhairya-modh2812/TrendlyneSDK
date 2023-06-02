@@ -1,0 +1,67 @@
+// common Variable
+$body_background_color: #ffffff;
+$primary_color: #e27a3b;
+$text_color: #202020;
+$link_color: #053d6e;
+$buy-color: #4184f3;
+$sell-color: #ff5722;
+$more-color: #ffffff;
+$more-border: #6e6e6e;
+$external-text-color: #fff;
+$card-bg-color: transparent;
+$card-bdr-color: #f3f4fa;
+$nav-bdr-color: #cfd4dc;
+
+$bg_positive:#00a25b;
+$bg_negative:#fc5a5a;
+$bg_neutral:#ffc542;
+$bg_yellow: #ffc542;
+$bg_cyan:#00ffff;
+$bg_purple:#800080;
+$bg_pink:#ff00ff;
+$bg_orenge:#ffa500;
+$bg_aquamarine:#7fffd4; 
+$bg_indigo:#4b0082;
+
+// font family
+$font-family: "Lato", sans-serif;
+// common Variable
+
+$text_light_black: #373737;
+$text_grey:#7f8899;
+$text_positive: #10bc52;
+$text_negative: #fc5a5a;
+$text_orenge:#ff7c1c;
+$text_light:#707070;
+$text_extra_light:#9ea6b7;
+$primary_bg: $primary_color;
+$bg_grey: #f5f6f8;
+$bg_dark: #f7f8f9;
+$progress_bar:linear-gradient(to right, #ffeaad -12%, #ff853c 107%);
+$transparent:transparent;
+$border_light:#e5e5e5;
+$border_dark:#cfd4dc;
+$border_table:#e6e8eb;
+$border_none:none;
+$bg_status:#f3f4fa;
+
+// xy_comparison
+$primary_light:#016aff4d;
+$text_light_black:#8c94a5;
+$white_color: #ffffff;
+$x_background_color: #f3f8ff;
+$x_border: 1px solid #016aff;
+$y_color: #ff49ad;
+$y_background_color: #fff2f9;
+$bg_light:#f4f5f7;
+
+// alpha alert
+$background_color: #f5f6f8;
+$primary_light_color: #3a8bff;
+$text_color: #083159;
+$button_background_color: #016aff;
+
+// Below css variables are used in the icons which are included via image tag, 
+// To change color we are using CSS filter. HEX code to filter
+$filter_positive: none;
+$filter_negative: none;
