@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "webpack serve",
-    "build": "webpack && cd build && mv stock-report.html index.html"
+    "build": "webpack ; cd build ; ren stock-report.html index.html"
   },
   "browserslist": {
     "production": [
