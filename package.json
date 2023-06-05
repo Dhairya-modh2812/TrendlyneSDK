@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "webpack serve",
-    "build": "webpack && cd build && ren stock-report.html index.html"
+    "build": "webpack",
+    "predeploy" : "npm run build  && cd build && ren stock-report.html index.html",
+"deploy" : "gh-pages -d build"
   },
   "browserslist": {
     "production": [
